@@ -24,5 +24,11 @@ namespace windowsXAML
         {
             InitializeComponent();
         }
+
+        private void OnMouseEnter(object sender, MouseEventArgs e)
+        {
+            TextBlock txb = sender as TextBlock;
+            txb.Text = "Changed";
+        }
     }
 }

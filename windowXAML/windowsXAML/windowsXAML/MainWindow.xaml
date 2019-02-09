@@ -11,6 +11,11 @@
             <SolidColorBrush Color="#FFEBEEF3"/>
         </Grid.Background>
         <TextBlock
-            Text="Dashboard" FontSize="30" Foreground="#FF606F89" />
+            Text="Dashboard" 
+            FontSize="30" 
+            Foreground="#FF606F89" 
+            Margin="10,10,583.6,360" 
+            MouseEnter="OnMouseEnter"        
+        />
     </Grid>
 </Window>
