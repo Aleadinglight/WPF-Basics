@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:windowsXAML"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" WindowStyle="None">
     <Grid>
         <Grid.Background>
             <SolidColorBrush Color="#FFEBEEF3"/>
@@ -14,7 +14,7 @@
             Text="Dashboard" 
             FontSize="30" 
             Foreground="#FF606F89" 
-            Margin="10,10,583.6,360" 
+            Margin="10,10,231.8,360" 
             MouseEnter="OnMouseEnter"        
         />
     </Grid>
