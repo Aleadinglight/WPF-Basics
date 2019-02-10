@@ -4,17 +4,13 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:windowsXAML"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" WindowStyle="None">
-    <Grid>
-        <Grid.Background>
-            <SolidColorBrush Color="#FFEBEEF3"/>
-        </Grid.Background>
+        mc:Ignorable="d" Height="450" Width="800" Title="MainWindow">
+    <Grid Background="#FF26262A">
         <TextBlock
             Text="Dashboard" 
             FontSize="30" 
-            Foreground="#FF606F89" 
-            Margin="10,10,231.8,360" 
+            Foreground="White" 
+            Margin="10,10,600,360" 
             MouseEnter="OnMouseEnter"        
         />
     </Grid>
