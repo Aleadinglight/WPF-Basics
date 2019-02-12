@@ -10,8 +10,17 @@
             Text="Dashboard" 
             FontSize="30" 
             Foreground="White" 
-            Margin="10,10,600,360" 
+            Margin="20,10,580,360" 
             MouseEnter="OnMouseEnter"        
         />
+        <Button Margin="130,130,500,130" Background="#FFAD3434">
+            
+            
+        </Button>
+
+        <Button Margin="430,130,200,130" Background="#FF00449A" IsMouseDirectlyOverChanged="buttonHover">
+
+
+        </Button>
     </Grid>
 </Window>

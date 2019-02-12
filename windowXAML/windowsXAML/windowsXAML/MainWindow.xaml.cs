@@ -30,5 +30,11 @@ namespace windowsXAML
             TextBlock txb = sender as TextBlock;
             txb.Text = "Changed";
         }
+
+        private void buttonHover(object sender, DependencyPropertyChangedEventArgs e)
+        {
+            Button btn = sender as Button;
+            btn.Background = new SolidColorBrush(Color.FromArgb(255, 255, 255, 0));
+        }
     }
 }
